@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import reportWebVitals from "./reportWebVitals";
-import Apptodo from "./Apptodo";
+
+import Appcrud from "./Appcrud";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Apptodo />
+    <Appcrud />
   </React.StrictMode>
 );
 
